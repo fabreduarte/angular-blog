@@ -7,9 +7,13 @@
     <hr />
   </div>
   <div class="content__description">
-    <a [routerLink]="['']"> << VOLTAR </a>
-    <p>
-      {{ contentDescription }}
-    </p>
+        <p>
+          {{ contentDescription }}
+        </p>
   </div>
+  <div class="textContent">
+    <pre class="text-formated">{{ contentText }}</pre>
+  </div>
+  <a [routerLink]="['']">
+    << VOLTAR </a>
 </div>

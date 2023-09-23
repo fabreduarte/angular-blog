@@ -18,6 +18,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: small;
 }
 
 .container__small-card__separator{
